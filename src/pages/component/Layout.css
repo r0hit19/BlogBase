@@ -1,0 +1,14 @@
+nav{
+    position: fixed;
+    background:linear-gradient(rgb(164, 167, 166), rgb(255, 255, 255));
+    width: 100vw;
+    top: 0;
+    left: 0;
+}
+
+.child{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 100px 100px 100px 100px ;
+}

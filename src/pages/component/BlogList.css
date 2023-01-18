@@ -1,0 +1,19 @@
+.card{
+    display:flex;
+    margin-bottom: 30px;
+    box-shadow: 2px 2px 3px rgb(230, 226, 226);
+}
+
+.card-content{
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+    padding-right: 30px;
+    box-shadow: 2px 2px 3px rgb(230, 226, 226);
+}
+Link{
+    width: 10rem;
+    text-decoration: none;
+    background-color: blue;
+    color: aliceblue;
+}
