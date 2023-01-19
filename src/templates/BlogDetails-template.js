@@ -4,7 +4,6 @@ import Layout from '../pages/component/Layout';
 import './BlogDetails-template.css'
 
 export default function BlogDetails({data}) {
-    console.log(data.airtable.data)
   return (
     <div>
       <Layout>
