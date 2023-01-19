@@ -25,7 +25,7 @@ export default function BlogList() {
                 <div className='card-content'>
                     <h2>{el.data.Title}</h2>
                     <p>{el.data.Description}</p>
-                    <Link to={"/"+el.data.SID} value={el.data.Title}>Read More</Link>
+                    <Link to={"/"+el.data.Title} >Read More</Link>
                 </div>
             </div>
             );

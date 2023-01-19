@@ -1,3 +1,4 @@
+require("dotenv").config();
 /**
  * Configure your Gatsby site with this file.
  *
@@ -12,7 +13,7 @@ module.exports = {
     {
       resolve: `gatsby-source-airtable`,
       options: {
-        apiKey: `keyKzM7anJTJYDEGC`, // may instead specify via env, see below
+        apiKey:process.env.AIRTABLE_API_KEY, // may instead specify via env, see below
         concurrency: 5, // default, see using markdown and attachments for more information
         tables: [
           {

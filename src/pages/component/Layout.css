@@ -1,9 +1,15 @@
+*{
+    scroll-behavior: smooth;
+}
 nav{
+    display: flex;
+    flex-direction: row;
     position: fixed;
     background:linear-gradient(rgb(164, 167, 166), rgb(255, 255, 255));
     width: 100vw;
     top: 0;
     left: 0;
+    align-items: center;
 }
 
 .child{
@@ -11,4 +17,19 @@ nav{
     flex-direction: row;
     flex-wrap: wrap;
     margin: 100px 100px 100px 100px ;
+}
+
+nav>h1{
+    margin-right: 20px;
+}
+
+.link{
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: rgb(14, 14, 14);
+}
+
+.link:hover{
+    cursor: pointer;
+    color: blue;
 }
